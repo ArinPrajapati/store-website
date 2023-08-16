@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'edu':"'Edu SA Beginner', cursive",
+        'Inter':"'Inter', sans-serif",
+        'OpenSans':"'Open Sans', sans-serif",
+        'Roboto':"'Roboto Slab', serif",
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-gradients'),
+  ],
 };

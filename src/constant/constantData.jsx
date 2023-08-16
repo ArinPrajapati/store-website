@@ -27,7 +27,7 @@ export const tabs = [
     url: "alskdfj",
   },
   {
-    name: <img className="icon" src="/cart.svg" className="w-[1rem]" alt="" />,
+    name: (<img className="icon" src="/cart.svg"  alt="" />),
     url: "alskdfj",
   },
   {
@@ -36,7 +36,7 @@ export const tabs = [
   },
 ];
 
-export const productList = [
+export const productCatList = [
   {
     name: "Home appliances",
     img: "https://5.imimg.com/data5/OV/KM/CR/ANDROID-37090388/product-jpeg.jpg",

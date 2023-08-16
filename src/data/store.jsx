@@ -1,4 +1,4 @@
-import { star } from "../constant/constantData";
+
 
 export const data = [
   {
