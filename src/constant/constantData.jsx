@@ -1,30 +1,30 @@
 export const tabs = [
   {
     name: "Home appliances",
-    url: "alskdfj",
+    url: `/page/homeAppliances`,
     style: "",
   },
   {
     name: "Clothing",
-    url: "alskdfj",
+    url: "/page/clothing",
 
     style: "",
   },
   {
     name: "Electronics",
-    url: "alskdfj",
+    url: "/page/electronics",
   },
   {
     name: "Beauty Care",
-    url: "alskdfj",
+    url: "/page/beautyCare",
   },
   {
     name: "Sports Outdoors",
-    url: "alskdfj",
+    url: "/page/sportsOutdoors",
   },
   {
     name: "Books",
-    url: "alskdfj",
+    url: "/page/books",
   },
   {
     name: (<img className="icon" src="/cart.svg"  alt="" />),

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { data } from "../data/store";
+import { data } from "../../data/store";
 
 const ShowItem = () => {
   const [randomProducts, setRandomProducts] = useState([]);

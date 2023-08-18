@@ -1,5 +1,8 @@
-import { proxy, useSnapshot } from 'valtio'
+import { proxy, useSnapshot } from "valtio";
 
- const state = proxy({ count: 0, text: 'hello' })
+const state = proxy({
+  navbar: true,
+  sidebar: false,
+});
 
- export default state 
+export default state;

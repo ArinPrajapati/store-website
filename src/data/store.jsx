@@ -4,6 +4,7 @@ export const data = [
   {
     name: "Classic Denim Jacket",
     tag: "clothing",
+    id:234,
     image:
       "https://5.imimg.com/data5/SELLER/Default/2021/7/GN/SV/SO/21288657/denim-jacket-500x500.jpeg",
     description:
@@ -15,6 +16,7 @@ export const data = [
   {
     name: "Smart LED TV, 55-inch",
     tag: "electronics",
+    id:567,
     image:
       "https://www.lg.com/in/images/tvs/md07554739/gallery/43UQ7550PSF-D-03.jpg",
     description:
@@ -26,6 +28,7 @@ export const data = [
   {
     name: "RoboClean Robotic Vacuum",
     tag: "homeAppliances",
+    id:123,
     image:
       "https://i02.appmifile.com/52_operator_in/16/11/2021/af595f49790920fe1b5df22b64d9bb88!800x800!85.jpg",
     description:
@@ -37,6 +40,7 @@ export const data = [
   {
     name: "Ionic Hair Dryer",
     tag: "beautyCare",
+    id:890,
     image: "https://m.media-amazon.com/images/I/51CqvaIEXyL.jpg",
     description:
       "Achieve salon-quality results at home with this powerful ionic hair dryer. Its advanced technology reduces frizz and leaves your hair looking smooth and shiny.",
@@ -47,6 +51,7 @@ export const data = [
   {
     name: "Premium Yoga Mat",
     tag: "sportsOutdoors",
+    id:456,
     image: "https://m.media-amazon.com/images/I/61d049-EBiL.jpg",
     description:
       "Enhance your yoga practice with this premium non-slip yoga mat. Its cushioned surface provides comfort and support, making it perfect for various exercises.",
@@ -57,6 +62,7 @@ export const data = [
   {
     name: "Bestselling Mystery Novel Set",
     tag: "books",
+    id:789,
     image:
       "https://5.imimg.com/data5/ANDROID/Default/2020/9/FM/KI/XK/15425662/product-jpeg-500x500.jpg",
     description:
@@ -68,6 +74,7 @@ export const data = [
   {
     name: "Comfort Fit Jeans",
     tag: "clothing",
+    id:345,
     image: "https://images.meesho.com/images/products/105898386/szjb0_512.webp",
     description:
       "Stay stylish and comfortable with these classic-fit jeans. Perfect for casual outings or dressing up with a nice shirt.",

@@ -1,9 +1,9 @@
 import React from "react";
-import { productCatList } from "../constant/constantData";
+import { productCatList } from "../../constant/constantData";
 
 const Feature = () => {
   return (
-    <section className="flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8">
+    <section className="flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8 bg-white">
       <h1 className="text-3xl sm:text-5xl font-Inter drop-shadow-xl gray_gradient mb-5 h-[5rem]">
         Shop by Category
       </h1>

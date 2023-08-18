@@ -18,6 +18,8 @@
 }
 
 
+
+
 .nav {
   position: relative;
   background: var(--normal-clr);
@@ -95,6 +97,17 @@
 .yellow_gradient {
   @apply font-black bg-gradient-to-r from-blue-400 via-amber-500 to-pink-800 bg-clip-text text-transparent;
 }
+.white_gradient {
+  @apply font-black bg-gradient-to-r from-red-900 via-cyan-600 to-stone-800 bg-clip-text text-transparent;
+}
+
+.text-shadow-md {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
+}
+
+.text-shadow-lg {
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
 
 input{
   all: unset;
@@ -104,9 +117,12 @@ input{
   background: url(/newbg.jfif);
   background-position: center;
   background-size: cover;
-  backdrop-filter: blur(40%);
+  
 }
 
+.page{
+  @apply flex flex-row justify-between
+}
 
 /* .f-heading{
   text-shadow: ;

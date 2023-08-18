@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow  ">
-      <div className="w-full max-w-screen-xl bg-[#d4d3d3] p-4 md:py-8">
+    <footer className="bg-white rounded-lg w-[100dvw]  ">
+      <div className="w-full max-w-[100dvw] bg-[#cacecd] p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="#" className="flex items-center mb-4 sm:mb-0">
             <img
@@ -11,11 +11,11 @@ const Footer = () => {
               className="h-8 mr-3"
               alt="Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap">
               
             </span>
           </a>
-          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
             <li>
               <a href="#" className="mr-4 hover:underline md:mr-6 ">
                 About
@@ -27,7 +27,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/ArinPrajapati" className="mr-4 hover:underline md:mr-6 ">
+              <a href="https://github.com/ArinPrajapati/store-websitei" className="mr-4 hover:underline md:mr-6 ">
                 Github
               </a>
             </li>
@@ -38,8 +38,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <span className="block text-sm text-gray-500 sm:text-center">
           © 2023{" "}
           <a href="#" className="hover:underline">
             BrowersBuyBox

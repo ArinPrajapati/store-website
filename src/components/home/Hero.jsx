@@ -1,5 +1,5 @@
 import React from "react";
-import { heroStyle } from "../constant/constantData";
+import { heroStyle } from "../../constant/constantData";
 
 const Hero = () => {
   return (

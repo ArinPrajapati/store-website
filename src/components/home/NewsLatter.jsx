@@ -34,7 +34,7 @@ function NewsletterSignup() {
   };
 
   return (
-    <div className="border image p-10 font-Roboto flex flex-col justify-center items-center h-[14rem] mb-5">
+    <div className="border image p-10 font-Roboto flex flex-col justify-center items-center h-[14rem]  shadow-xl">
       <h1 className="text-3xl font-OpenSans yellow_gradient mb-5">
         Sign up for our newsletter
       </h1>
